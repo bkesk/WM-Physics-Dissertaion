@@ -8,3 +8,5 @@ It conforms to the [physical standards](https://www.wm.edu/as/graduate/studentre
 [Dissertation Submission Process](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/index.php)
 
 [Deadlines](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/deadlines/index.php)
+
+[physical standards](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/physicalstandards/index.php)
