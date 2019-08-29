@@ -1,6 +1,6 @@
 # WM-Physics-Dissertation
 
-This is a simple example of the William & Mary Physics dissertaiton LaTeX template.
+This is a simple example of the William & Mary Physics dissertation LaTeX template.
 It conforms to the [physical standards](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/physicalstandards/index.php) required by the Office of Graduate Study and Research.
 
 ### useful links
