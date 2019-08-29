@@ -5,4 +5,5 @@ This is a simple example of the William & Mary Physics dissertaiton LaTeX templa
 ### useful links
 
 [Dissertation Submission Process](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/index.php)
+
 [Deadlines](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/deadlines/index.php)
