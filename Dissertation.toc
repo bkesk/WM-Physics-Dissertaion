@@ -1,0 +1,14 @@
+\contentsline {chapter}{Acknowledgments}{ii}
+\contentsline {chapter}{Dedication}{iii}
+\contentsline {chapter}{List of Tables}{iv}
+\contentsline {chapter}{List of Figures}{v}
+\contentsline {chapter}{\hb@xt@ \hsize {CHAPTER\hfill }}{}
+\contentsline {chapter}{\hskip 1.5em \hbox to\@tempdima {1\hfil }Introduction}{1}
+\contentsline {chapter}{\hskip 1.5em \hbox to\@tempdima {2\hfil }Background}{2}
+\contentsline {section}{\numberline {2.1}Topic 1}{2}
+\contentsline {section}{\numberline {2.2}Topic 2}{2}
+\contentsline {chapter}{\hskip 1.5em \hbox to\@tempdima {3\hfil }Approach}{4}
+\contentsline {chapter}{\hskip 1.5em \hbox to\@tempdima {4\hfil }Results}{5}
+\contentsline {chapter}{\hskip 1.5em \hbox to\@tempdima {5\hfil }Summary}{6}
+\contentsline {chapter}{\hb@xt@ \hsize {APPENDIX A\hfill } Detailed Information}{7}
+\contentsline {chapter}{Bibliography}{7}

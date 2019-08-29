@@ -1,0 +1,22 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Ph.D. dissertation manuscript
+%
+% College of William and Mary
+% Department of Physics
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+\label{chp:Intro}
+
+There is a very challenging and fundamental problem in Physics.
+Now, I am explaining the problem and the approaches that have been used in order to address this problem.
+These approaches are not suitable in all cases.
+Now I am explaining a different approach that works in a specific set of cases.
+
+This dissertation is organized as follows.
+In Chapter~\ref{chp:background}, background material is covered.
+In Chapter~\ref{chp:approach}, our approach is introduced.
+Chapter~\ref{chp:results} contains results obtained from our approach.
+We conclude with general remarks in Chapter~\ref{chp:summary}.

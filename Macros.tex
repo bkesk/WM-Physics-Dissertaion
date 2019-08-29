@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Ph.D. dissertation manuscript
+% Global LaTeX macros
+%
+% Brad Student (January 2005)
+% College of William and Mary
+% Department of Physics
+% Prof. Sharp Mind, advisor
+%
+% $Id: Diss-title.tex,v 1.5 2005/01/14 22:32:00 wirawan Exp $
+%
+% Based on Paul King and Andrew Norman's template (modified)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Simple equation macros (note how the align or align* environment is used
+% in AMS-math documentation, if you're going to use this).
+\newcommand\eq[1]                              % single unlabeled equation
+{
+\begin{align*}
+#1
+\end{align*}
+}
+
+\newcommand\eql[2] % single labeled equation
+{
+\begin{equation}\label{#1}
+\begin{split}
+#2
+\end{split}
+\end{equation}
+}
+
+\newcommand\eqnl[2]        % single labeled equation (maunya sih, centered
+{%                     equation array dg satu label saja (apakah bisa???))
+\begin{equation}\label{#1}
+%\begin{split}
+#2
+%\end{split}
+\end{equation}
+}
+
+% WARNING: eqsl is REDEFINED!
+\newcommand\eqsl[1]                            % multiply labeled equation
+{
+\begin{align}
+#1
+\end{align}
+}
+
+\newcommand\eqssl[2]                      % multiply labeled SUB-equations
+{
+\begin{subequations}\label{#1}
+\begin{align}
+#2
+\end{align}
+\end{subequations}
+}
+
+% FORMATTING SHORTCUTS:
+\newcommand\prg[1]     {\texttt{#1}}                   % computerish stuff
+
+% Formatting for captions:
+% Usage:
+% \xcaption{Label}{First caption included in TOC.}{More caption text.}
+% or
+% \xcaption[Caption for TOC.]{Label}{First caption text.}{More caption text.}
+\newcommand\xcaption[4][] {
+    \ifthenelse{\equal{#1}{}}
+               {\caption[#3]{\label{#2}#3 #4}}
+               {\caption[#1]{\label{#2}#3 #4}}
+}
+% The following is needed because caption is too close to the table:
+\newcommand\TableCaptionSkip {\vskip 0.4cm}
+% Table caption: similar to \xcaption above
+\newcommand\tcaption[4][] {
+    \xcaption[#1]{#2}{#3}{#4}
+    \TableCaptionSkip
+}
+% Autocentering for graphics:
+\newcommand\IncludeGraphics[2][] {
+    \begin{center}
+    \includegraphics[#1]{#2}
+    \end{center}
+}
+\newcommand\FIGURE[1]  {figures/#1}     % -- if specific-plotdir is wanted
+
+% Referencing shortcuts:
+\providecommand\eqref[1] {(\ref{#1})}  %if your stylesheet doesn't have it
+\newcommand\Appendix[1]{Appendix~\ref{#1}}
+\newcommand\Chapter[1] {Chapter~\ref{#1}}
+\newcommand\ChapSec[2] {Chapter~\ref{#1}, \Sec{#2}}
+\newcommand\Eq[1]      {Eq.~\eqref{#1}}
+\newcommand\Eqs[1]     {Eqs.~\eqref{#1}}
+\newcommand\Fig[1]     {Fig.~\ref{#1}}
+\newcommand\Sec[1]     {Sec.~\ref{#1}}
+\newcommand\Ref[1]     {Ref.~\onlinecite{#1}}
+\newcommand\Refs[1]    {Refs.~\onlinecite{#1}}
+\newcommand\Cite[1]    {~\cite{#1}}                % user-modifiable \cite
+
+% Coloring and marking
+\definecolor{Red}{rgb}{0.8,0.2,0.2}%red
+\definecolor{Green}{rgb}{0.08,0.60,0.08}%green
+\definecolor{Blue}{rgb}{0.3,0.3,1.0}%blue
+\definecolor{dkBlue}{rgb}{0.1,0.1,0.5}%dark blue
+\definecolor{Black}{rgb}{0,0,0}
+\definecolor{Gold}{rgb}{0.60,0.60,0.08}%gold-like color
+\definecolor{Remarks}{rgb}{1,0.3,0.3}%red
+\definecolor{Extra}{rgb}{0.2,0.2,1}%blue
+
+% DRAFTING utility
+\newcommand\COMMENTED[1] {}
+
+% KE - added following Macros
+\newcommand\ket[1]     {|{{#1}}\rangle}
+\newcommand\bra[1]     {\langle{{#1}}|}
+
+\newcommand\REMARKS[1]   {\textbf{\textcolor{Red}{[#1]}}}
+%\newcommand\REMARKS[1]   {}
+\newcommand\REMARKSBLUE[1]   {\textbf{\textcolor{Blue}{[#1]}}}
+% You are certainly welcome to customize the macros above (or erase the
+% ones that you don't like). Add your own macros here, too.
