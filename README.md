@@ -9,4 +9,6 @@ It conforms to the [physical standards](https://www.wm.edu/as/graduate/studentre
 
 [Deadlines](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/deadlines/index.php)
 
-[physical standards](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/physicalstandards/index.php)
+[Physical Standards](https://www.wm.edu/as/graduate/studentresources/thesis-dissertations/physicalstandards/index.php)
+
+The physical standards often change in small ways. Please create an issue, or pull request with a specific fix, so that we can maintain the template.
